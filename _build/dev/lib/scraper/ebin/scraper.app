@@ -1,0 +1,11 @@
+{application,scraper,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,gen_stage]},
+              {description,"scraper"},
+              {modules,['Elixir.OnlinePageProducerConsumer',
+                        'Elixir.PageConsumer','Elixir.PageConsumerSupervisor',
+                        'Elixir.PageProducer','Elixir.Scraper',
+                        'Elixir.Scraper.Application']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Scraper.Application',[]}}]}.
